@@ -1,5 +1,5 @@
 function fetchData() {
-  const url = "https://emojihub.yurace.pro/api/all";
+  const url ="https://autocomplete.clearbit.com/v1/companies/suggest?query=segment";
 
   fetch(url)
     .then((response) => {
